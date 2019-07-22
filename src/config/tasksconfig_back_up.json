@@ -1,0 +1,27 @@
+{
+	"stocks":[
+		"IBKR",
+		"JTPY",
+		"LLY,JTPY",
+		"LLY,LYG",
+		"LYG,MU,LLY,JTPY"
+	],
+	"test_dates":[
+			["2018-02-15","2018-06-09"],
+			["2017-12-21","2017-12-27"],
+			["2018-05-11","2018-06-07"],
+			["2017-10-12","2018-04-19"],
+			["2017-11-21","2018-04-14"]
+		],
+	"train_dates":["2013-01-01","2017-06-30"],
+	"predictor_type": "lstm",
+	"window_length": 3,
+	"trading_cost": 0,
+	"episode" : 1,
+	"repeat_time": 5,
+	"feature_number": 5,
+	"learning_rates": 0.001,
+	"activation_function": "prelu",
+	"buffer size": 20000,
+	"batch size": 64
+}

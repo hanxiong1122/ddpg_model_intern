@@ -1,0 +1,3 @@
+{
+	"cmd":["cd /home/ubuntu/yintech/ddpg_model/model/src;chmod a+x aws_task_run.py;chmod a+x aws_test_run.py ;nohup ./aws_task_run.py 1>&2 &"]
+}
